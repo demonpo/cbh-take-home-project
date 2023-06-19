@@ -119,11 +119,13 @@ Facilities want to save their own custom agent id and have that new customsId in
 
 - Check or Update generateReport function so the pdf generated contains the customId of the agents.
 - Use getShiftsByFacility function with the new output that returns the customId of the agents in the metadata. 
+- Validate with the Product team, the new report with the customId.
 
 ## 🔨 Acceptance Criteria
 
 - The feature is in staging and production.
 - Update generateReport tests to check the customId of the agents in the output report.
+- Report is validated with the product team.
 
 
 ## 📚 Resources
