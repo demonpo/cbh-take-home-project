@@ -43,6 +43,10 @@ Facilities want to save their own custom agent id.
 
 ## Create new endpoint to allow third party (facilities) add their customId for agents
 
+## Dependencies
+
+- [Create new endpoint to allow third party (facilities) add their customId for agents](##-Create-new-endpoint-to-allow-third-party-(facilities)-add-their-customId-for-agents)
+
 ## 🧑 Story
 
 Facilities want to save their own custom agent id.
@@ -73,6 +77,10 @@ Facilities want to save their own custom agent id.
 ----------------------------------------------------
 
 ## Update getShiftsByFacility to return customId of the agent.
+
+## Dependencies
+
+- [Create new endpoint to allow third party (facilities) add their customId for agents](##-Create-new-endpoint-to-allow-third-party-(facilities)-add-their-customId-for-agents)
 
 ## 🧑 Story
 
