@@ -69,3 +69,27 @@ Facilities want to save their own custom agent id.
 - [PLANNINGDOC1](WWWDOTEXAMPLEDOTCOM)
 
 ## Expected Time: 6h
+
+----------------------------------------------------
+
+## Update getShiftsByFacility to return customId of the agent.
+
+## 🧑 Story
+
+Facilities want to save their own custom agent id.
+
+## Action items
+
+- Update getShiftsByFacility so in the metadata field of the agent it returns also the customId.
+
+## 🔨 Acceptance Criteria
+
+- The feature is in staging and production.
+- There are tests the checks the new output of the getShiftsByFacility function (update other tests if necessary).
+
+
+## 📚 Resources
+
+- [PLANNINGDOC1](WWWDOTEXAMPLEDOTCOM)
+
+## Expected Time: 3h
