@@ -15,4 +15,57 @@ Based on the information given, break this ticket down into 2-5 individual ticke
 
 You will be graded on the level of detail in each ticket, the clarity of the execution plan within and between tickets, and the intelligibility of your language. You don't need to be a native English speaker, but please proof-read your work.
 
-## Your Breakdown Here
+# Your Breakdown Here
+
+## Create new field in "Agents" Table
+
+## 🧑 Story
+
+Facilities want to save their own custom agent id.
+
+## Action items
+
+- Create a nullable varchar "customId" Field in "facilities" table.
+
+## 🔨 Acceptance Criteria
+
+- Database has customId in "facilities" table.
+- the new field is in staging and production tables.
+
+
+## 📚 Resources
+
+- [PLANNINGDOC1](WWWDOTEXAMPLEDOTCOM)
+
+## Expected Time: 6h
+
+----------------------------------------------------
+
+## Create new endpoint to allow third party (facilities) add their customId for agents
+
+## 🧑 Story
+
+Facilities want to save their own custom agent id.
+
+## Action items
+
+- Create [POST] /facilities/agents/id endpoint in our backend to allow the creation of customId agent and update the field in our db.
+- define a structure for the request body: 
+```
+{
+    customId: "s123s123fasf";
+}
+```
+- Add validations for the structure. the new customId cannot be null or an empty string.
+
+## 🔨 Acceptance Criteria
+
+- The feature is in staging and production.
+- There are tests the checks validation and the creation of the customId in the DB.
+
+
+## 📚 Resources
+
+- [PLANNINGDOC1](WWWDOTEXAMPLEDOTCOM)
+
+## Expected Time: 6h
