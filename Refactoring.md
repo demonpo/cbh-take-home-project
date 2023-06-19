@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+It is more readable because there are fewer lines and the logic is simplified without too many indentations that causes confusion.
+There are early returns so the reader can now know what to expect on each return and that allows to write tests easily
