@@ -45,7 +45,7 @@ Facilities want to save their own custom agent id.
 
 ## Dependencies
 
-- [Create new endpoint to allow third party (facilities) add their customId for agents](##-Create-new-endpoint-to-allow-third-party-(facilities)-add-their-customId-for-agents)
+- [Create new endpoint to allow third party (facilities) add their customId for agents]()
 
 ## 🧑 Story
 
@@ -80,7 +80,7 @@ Facilities want to save their own custom agent id.
 
 ## Dependencies
 
-- [Create new endpoint to allow third party (facilities) add their customId for agents](##-Create-new-endpoint-to-allow-third-party-(facilities)-add-their-customId-for-agents)
+- [Create new endpoint to allow third party (facilities) add their customId for agents]()
 
 ## 🧑 Story
 
@@ -94,6 +94,36 @@ Facilities want to save their own custom agent id.
 
 - The feature is in staging and production.
 - There are tests the checks the new output of the getShiftsByFacility function (update other tests if necessary).
+
+
+## 📚 Resources
+
+- [PLANNINGDOC1](WWWDOTEXAMPLEDOTCOM)
+
+## Expected Time: 3h
+
+----------------------------------------------------
+
+## Update generateReport to return customId of the agent.
+
+## Dependencies
+
+- [Create new endpoint to allow third party (facilities) add their customId for agents]()
+- [Update getShiftsByFacility to return customId of the agent.]()
+
+## 🧑 Story
+
+Facilities want to save their own custom agent id.
+
+## Action items
+
+- Check or Update generateReport function so the pdf generated contains the customId of the agents.
+- Use getShiftsByFacility function with the new output that returns the customId of the agents in the metadata. 
+
+## 🔨 Acceptance Criteria
+
+- The feature is in staging and production.
+- Update generateReport tests to check the customId of the agents in the output report.
 
 
 ## 📚 Resources
