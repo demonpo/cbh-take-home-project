@@ -21,7 +21,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## 🧑 Story
 
-Facilities want to save their own custom agent id.
+Facilities want to save their own custom agent id and have that new customsId in the reports.
 
 ## Action items
 
@@ -49,7 +49,7 @@ Facilities want to save their own custom agent id.
 
 ## 🧑 Story
 
-Facilities want to save their own custom agent id.
+Facilities want to save their own custom agent id and have that new customsId in the reports.
 
 ## Action items
 
@@ -84,7 +84,7 @@ Facilities want to save their own custom agent id.
 
 ## 🧑 Story
 
-Facilities want to save their own custom agent id.
+Facilities want to save their own custom agent id and have that new customsId in the reports.
 
 ## Action items
 
@@ -113,7 +113,7 @@ Facilities want to save their own custom agent id.
 
 ## 🧑 Story
 
-Facilities want to save their own custom agent id.
+Facilities want to save their own custom agent id and have that new customsId in the reports.
 
 ## Action items
 
